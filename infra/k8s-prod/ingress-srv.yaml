@@ -8,7 +8,7 @@ metadata:
 spec:
   rules:
     - host: www.ticketing-app-tutorial.online
-      http:
+      http: 
         paths:
           - path: /api/users/?(.*)
             pathType: Prefix
